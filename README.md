@@ -38,6 +38,6 @@ __GOOD__: Reads the dataset using [xarray](https://docs.xarray.dev/en/stable/) a
 
 ## Repository Structure
 
-The current plan is to distinguish tools at the highest level by the land models that they target i.e. CABLE or JULES. Further structure is up for discussion- do we then separate by pre- and post-processing? Interpolation and aggregation/disaggregation?
+The repository is currently structured to reflect the categories set on the working day i.e. ancillaries and meteorological forcing. The structure for this repository (or it's successor) will be open to discussion.
 
-![Repository Structure](LWG-Workshop-Day2-RepoStructure.png)
+![Repository Structure (and potential further categorisations)](LWG-Workshop-Day2-RepoStructure-v2.png)
