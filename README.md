@@ -19,19 +19,22 @@ Place your script or tool in the relevant directory within the repository and in
 The README should have three headings: __Purpose__, __Usage__, __Method__. Please be verbose in the descriptions. For example:
 
 ### Purpose
-BAD: Interpolates met data
-GOOD: Interpolates the CRU-JRA met data to the desired resolution and writes the output to NetCDF in a format readable by CABLE.
+__BAD__: Interpolates met data
+
+__GOOD__: Interpolates the CRU-JRA met data to the desired resolution and writes the output to NetCDF in a format readable by CABLE.
 
 ### Usage
-BAD: interpolate_met_data.py -r lat_resolution,lon_resolution -o output.nc -b lat_min,lat_max,lon_min,lon_max
-GOOD: Call from the command line via ```interpolate_met_data.py -r lat_resolution,lon_resolution -o output.nc -b lat_min,lat_max,lon_min,lon_max```, where:
+__BAD__: interpolate_met_data.py -r lat_resolution,lon_resolution -o output.nc -b lat_min,lat_max,lon_min,lon_max
+
+__GOOD__: Call from the command line via ```interpolate_met_data.py -r lat_resolution,lon_resolution -o output.nc -b lat_min,lat_max,lon_min,lon_max```, where:
 * "-r lat_resolution,lon_resolution" are the grid spacings (required).
 * "-o output.nc" specifies the name of the output file to write to (required).
 * "-b lat_min,lat_max,lon_min,lon_max" specify the domain to interpolate (optional). If no bounds are specified, then the original domain is used.
 
 ### Method
-BAD: uses linear interpolation
-GOOD: Reads the dataset using [xarray](https://docs.xarray.dev/en/stable/) and uses scipy's [LinearNDInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html#scipy.interpolate.LinearNDInterpolator) to perform the interpolation.
+__BAD__: uses linear interpolation
+
+__GOOD__: Reads the dataset using [xarray](https://docs.xarray.dev/en/stable/) and uses scipy's [LinearNDInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html#scipy.interpolate.LinearNDInterpolator) to perform the interpolation.
 
 ## Repository Structure
 
