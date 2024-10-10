@@ -1,0 +1,182 @@
+{
+    "SWdown": {
+        "short_name_alma": "SWdown",
+        "short_name_cmip": "rsds",
+        "standard_name": "surface_downwelling_shortwave_flux_in_air",
+        "long_name": "Downward short-wave radiation",
+        "unit": "W/m2",
+        "direction": "Downward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "LWdown": {
+        "short_name_alma": "LWdown",
+        "short_name_cmip": "rlds",
+        "standard_name": "surface_downwelling_longwave_flux_in_air",
+        "long_name": "Downward long-wave radiation",
+        "unit": "W/m2",
+        "direction": "Downward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Precip": {
+        "short_name_alma": "Precip",
+        "short_name_cmip": "pr",
+        "standard_name": "precipitation_flux",
+        "long_name": "Precipitation rate",
+        "unit": "kg/m2/s",
+        "direction": "Downward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Qair": {
+        "short_name_alma": "Qair",
+        "short_name_cmip": "huss",
+        "standard_name": "specific_humidity",
+        "long_name": "Near surface specific humidity",
+        "unit": "kg/kg",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Tair": {
+        "short_name_alma": "Tair",
+        "short_name_cmip": "ta",
+        "standard_name": "air_temperature",
+        "long_name": "Near surface air temperature",
+        "unit": "K",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Psurf": {
+        "short_name_alma": "Psurf",
+        "short_name_cmip": "ps",
+        "standard_name": "surface_air_pressure",
+        "long_name": "Surface Pressure",
+        "unit": "Pa",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Wind": {
+        "short_name_alma": "Wind",
+        "short_name_cmip": "ws",
+        "standard_name": "wind_speed",
+        "long_name": "Near surface wind speed",
+        "unit": "m/s",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "CO2air": {
+        "short_name_alma": "CO2air",
+        "short_name_cmip": "co2c",
+        "standard_name": "mole_fraction_of_carbon_dioxide_in_air",
+        "long_name": "Near surface CO2 concentration",
+        "unit": "-",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "RH": {
+        "short_name_alma": "RH",
+        "short_name_cmip": "hur",
+        "standard_name": "relative_humidity",
+        "long_name": "Relative humidity",
+        "unit": "%",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Rainf": {
+        "short_name_alma": "Rainf",
+        "short_name_cmip": "prra",
+        "standard_name": "rainfall_flux",
+        "long_name": "Rainfall rate",
+        "unit": "kg/m2/s",
+        "direction": "Downward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Snowf": {
+        "short_name_alma": "Snowf",
+        "short_name_cmip": "prsn",
+        "standard_name": "snowfall_flux",
+        "long_name": "Snowfall rate",
+        "unit": "kg/m2/s",
+        "direction": "Downward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "CRainf": {
+        "short_name_alma": "CRainf",
+        "short_name_cmip": "prrc",
+        "standard_name": "convective_rainfall_flux",
+        "long_name": "Convective Rainfall rate",
+        "unit": "kg/m2/s",
+        "direction": "Downward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "CSnowf": {
+        "short_name_alma": "CSnowf",
+        "short_name_cmip": "prsnc",
+        "standard_name": "convective_snowfall_flux",
+        "long_name": "Convective Snowfall rate",
+        "unit": "kg/m2/s",
+        "direction": "Downward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "CCover": {
+        "short_name_alma": "CCover",
+        "short_name_cmip": "clt",
+        "standard_name": "cloud_area_fraction",
+        "long_name": "Total cloud fraction",
+        "unit": "-",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Wind_N": {
+        "short_name_alma": "Wind_N",
+        "short_name_cmip": "va",
+        "standard_name": "northward_wind",
+        "long_name": "Near surface northward wind component",
+        "unit": "m/s",
+        "direction": "Northward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "Wind_E": {
+        "short_name_alma": "Wind_E",
+        "short_name_cmip": "ua",
+        "standard_name": "eastward_wind",
+        "long_name": "Near surface eastward wind component",
+        "unit": "m/s",
+        "direction": "Eastward",
+        "dim": "XYT",
+        "description": ""
+    },
+    "TairMax": {
+        "short_name_alma": "TairMax",
+        "short_name_cmip": "tasmax",
+        "standard_name": "air_temperature_maximum",
+        "long_name": "Daily Maximum Near-Surface Air Temperature",
+        "unit": "K",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    },
+    "TairMin": {
+        "short_name_alma": "TairMin",
+        "short_name_cmip": "tasmin",
+        "standard_name": "air_temperature_minimum",
+        "long_name": "Daily Minimum Near-Surface Air Temperature",
+        "unit": "K",
+        "direction": "-",
+        "dim": "XYT",
+        "description": ""
+    }
+}
