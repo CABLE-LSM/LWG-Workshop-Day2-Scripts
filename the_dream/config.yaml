@@ -1,0 +1,16 @@
+variables:
+  Precip:
+    function: "read"
+      inputs: "some-glob*.nc"
+    scale: 1.0
+  
+  Wind:
+    function: "sum_of_squares"
+    inputs: 
+      wind_E: "wind_E*.nc"
+      wind_N: "wind_N*.nc"
+
+  LWDown:
+    function: "swinbank"
+    inputs:
+      SWdown: "SWdown_files*.nc"
